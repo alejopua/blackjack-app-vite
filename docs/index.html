@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/04-blackjack-app-vite/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack-Vite_App</title>
+
+    <!-- css only, boob -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script type="module" crossorigin src="/04-blackjack-app-vite/assets/index-9b6da8d1.js"></script>
+    <link rel="stylesheet" href="/04-blackjack-app-vite/assets/index-078e1056.css">
+  </head>
+  <body>
+    <header class="header">BlackJack</header>
+    <div class="row mt-2">
+        <div id="buttons" class="col text-center">
+            <button id="btnNew" class="btn btn-info"><i class="bi bi-controller"> New Game</i></button>
+            <button id="btnHit"  disabled="disabled" class="btn btn-primary"><i class="bi bi-file-plus"> Hit</i></button>
+            <button id="btnStop" disabled="disabled" class="btn btn-danger"><i class="bi bi-sign-stop-fill"> Stop</i></button>
+        </div>
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h1 class="titlePlayer">Jugador 1 - <small>0</small></h1>
+            <div id="cardsContent">
+
+            </div>
+        </div>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1 class="titlePC">Computer 1 - <small>0</small></h1>
+            <div id="cardsContent">
+
+            </div>
+        </div>
+    </div>
+    
+  </body>
+</html>
