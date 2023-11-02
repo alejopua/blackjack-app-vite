@@ -58,6 +58,13 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+*or*
+
+### steps to implement the project:
+1. clone repository
+2. run ```"npm i"```
+3. ```npm run dev```
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)
 <!-- CONTACT -->
