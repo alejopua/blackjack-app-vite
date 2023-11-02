@@ -1,0 +1,32 @@
+body {
+  background-color: #2f4f30;
+  color: white;
+}
+
+.header {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 1.2rem;
+  font-size: 2.2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0.7rem;
+}
+
+.cards {
+  position: relative;
+  left: 6.25rem;
+  margin-left: -4.688rem;
+  width: 9.375rem;
+  height: auto;
+
+}
+
+#cardsContent {
+  height: 15rem;
+}
