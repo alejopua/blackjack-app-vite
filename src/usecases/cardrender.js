@@ -6,7 +6,7 @@
  */
 const cardRender = (contentCards, card, index) => {
     const cardImg = document.createElement('img')
-    cardImg.src = `assets/cartas/${card}.png`
+    cardImg.src = `/blackjack-app-vite/assets/cartas/${card}.png`
     cardImg.classList.add('cards')
     contentCards[index].append(cardImg)
 } 
